@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'khand-semiblod';
+    src: url(../font/Khand/Khand-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'khand-light';
+    src: url(../font/Khand/Khand-Light.ttf);
+}
+@font-face {
+    font-family: 'lalezar-regular';
+    src: url(../font/Lalezar/Lalezar-Regular.ttf);
+}
+@font-face {
+    font-family: 'franklin-light';
+    src : url(../font/Libre_Franklin/static/LibreFranklin-Light.ttf);
+}
+@font-face {
+    font-family: 'kdam-regular';
+    src: url(../font/Kdam_Thmor_Pro/KdamThmorPro-Regular.ttf);
+}
+
+
