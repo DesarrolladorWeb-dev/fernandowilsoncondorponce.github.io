@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="./css-externos/icono-enlace.css" />
+    <!-- <link rel="stylesheet" href="./css-externos/index.ce7a56d0.css"> -->
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Khand:wght@300;500;600&family=Lalezar&family=Libre+Franklin:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css-externos/carrusel/styles-carrusel.css">
+    <title>Portafolio</title>
+  </head>
+  <body>
+    <header id="site-header">
+      <div class="barra">
+        <a href="/">PORTAFOLIO</a>
+        <nav>
+          <a class=".no-enlace" href="#">Contactanos</a>
+          <a href="#">Ver mas</a>
+          <a href="#">ubicacion</a>
+        </nav>
+      </div>
+      <div class="titulo-principal">
+        <h1>BIENVENIDO A MI <span class="light">PORTAFOLIO</span></h1>
+      </div>
+    </header>
+
+    <main class="contenedor">
+      <!-- imagen + Detalle -->
+      <div class="group-detalle">
+        <div class="detalle">
+          <h2 class="sub-detalles">FERNANDO WILSON</h2>
+          <h2 class="sub-detalles">CONDOR PONCE</h2>
+          <span>Desarrollador Frontend</span>
+        </div>
+        <div class="imagen-perfil">
+          <img src="img/perfil.png" alt="foto de perfil" />
+        </div>
+      </div>
+
+      <section class="sobre-mi">
+        <h2>SOBRE MI</h2>
+        <p>
+          He descubierto mi vocación y pasión por el desarrollo web, continuo mi
+          aprendizaje de conocimientos técnicos por cuenta propia. Tras mis
+          anteriores experiencias relacionados puedo garantizar mi capacidad de
+          trabajo en equipo, organización, atención al detalle y resolución de
+          problemas de forma ágil y eficaz.
+        </p>
+      </section>
+
+      <div class="laptop">
+        <img src="img/laptop.webp" alt="icono de laptop" />
+      </div>
+      <!-- icono de laptop web -->
+
+      <section class="skill">
+        <h2>SKILL</h2>
+        <div class="Carousel">
+          
+          <div class="slick-list" id="slick-list">
+              <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev" onclick="app.processingButton(event)">
+                  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+              </button>
+              <div class="slick-track" id="track">
+                  <div class="slick">
+                    <div class="caja">
+                      <div class="div-icons icon1">
+                        <img src="icons/html.svg" alt="icon HTML" />
+                      </div>
+                      <p>HTML</p>
+                    </div>
+                  </div>
+                  <div class="slick">
+                    <div class="caja">
+                      <div class="div-icons icon2">
+                        <img src="icons/javascript.svg" alt="icon Javascript" />
+                      </div>
+                      <p>JAVASCRIPT</p>
+                    </div>
+                  </div>
+                  <div class="slick">
+                    <div class="caja">
+                      <div class="div-icons icon3">
+                        <img src="icons/css3.svg" alt="icon CSS" />
+                      </div>
+                      <p>CSS</p>
+                    </div>
+                  </div>
+                  <div class="slick">
+                    <div class="caja">
+                      <div class="div-icons icon4">
+                        <img src="icons/react.svg" alt="icon React" />
+                      </div>
+                      <p>REACT</p>
+                    </div>
+                  </div>
+                
+              </div>
+              <button class="slick-arrow slick-next" id="button-next" data-button="button-next" onclick="app.processingButton(event)">
+                  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+              </button>
+          </div>
+  
+   </div>
+  
+      </section>
+<section  class="complet-proyecto">
+  <div class="icon-maletin">
+    <img src="img/portafolio.webp" alt="icon Portafolio" />
+  </div>
+      
+      <!-- icono de portafolio -->
+      <h2>Proyectos</h2>
+
+      <div class="Carousel">
+      
+        <div class="slick-list" id="slick-list">
+            <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev" onclick="app.processingButton(event)">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+            </button>
+            <div class="slick-track" id="track">
+                <div class="slick">
+                  <article class="seccion-proyectos">
+                    <div class="card">
+                      <div>
+                        <div class="imagen-proyect">
+                          <img src="img/proyect.jpg" alt="pixelscript web screen">
+                        </div>
+                        <div class="barra-inclinada"></div>
+                        <div class="content-color">
+                          <h3> 1 Simulador de Envio de mensajes - utilizando filtros 1 </h3>
+                          <p>Plataforma simular el envio de correo</p>
+                            </div>
+                        </div>
+                      </div>
+                
+                    <div class="lenguajes">
+                      <div
+                        class=""
+                      >
+                        html
+                      </div>
+                      <div
+                        class=""
+                      >
+                        javascript
+                      </div>
+                      <div
+                        class=""
+                      >
+                        react
+                      </div>
+                      <div
+                        class=""
+                      >
+                        css
+                      </div>
+                    </div>
+                </article>
+                </div> <!-- 1 proyect -->
+
+                <div class="slick">
+                  <article class="seccion-proyectos">
+                    <div class="card">
+                      <div>
+                        <div class="imagen-proyect">
+                          <img src="img/proyect.jpg" alt="pixelscript web screen">
+                        </div>
+                        <div class="barra-inclinada"></div>
+                        <div class="content-color">
+                          <h3>2 Simulador de Envio de mensajes - utilizando filtros 2</h3>
+                          <p>Plataforma simular el envio de correo</p>
+                            </div>
+                        </div>
+                      </div>
+                
+                    <div class="lenguajes">
+                      <div
+                        class=""
+                      >
+                        html
+                      </div>
+                      <div
+                        class=""
+                      >
+                        javascript
+                      </div>
+                      <div
+                        class=""
+                      >
+                        react
+                      </div>
+                      <div
+                        class=""
+                      >
+                        css
+                      </div>
+                    </div>
+                </article>
+                </div><!-- 2 proyect -->
+
+
+
+                <div class="slick">
+                  <article class="seccion-proyectos">
+                    <div class="card">
+                      <div>
+                        <div class="imagen-proyect">
+                          <img src="img/proyect.jpg" alt="pixelscript web screen">
+                        </div>
+                        <div class="barra-inclinada"></div>
+                        <div class="content-color">
+                          <h3>3 Simulador de Envio de mensajes - utilizando filtros 3</h3>
+                          <p>Plataforma simular el envio de correo</p>
+                            </div>
+                        </div>
+                      </div>
+                
+                    <div class="lenguajes">
+                      <div
+                        class=""
+                      >
+                        html
+                      </div>
+                      <div
+                        class=""
+                      >
+                        javascript
+                      </div>
+                      <div
+                        class=""
+                      >
+                        react
+                      </div>
+                      <div
+                        class=""
+                      >
+                        css
+                      </div>
+                    </div>
+                </article>
+                </div><!-- 3 proyect -->
+
+                <div class="slick">
+                  <article class="seccion-proyectos">
+                    <div class="card">
+                      <div>
+                        <div class="imagen-proyect">
+                          <img src="img/proyect.jpg" alt="pixelscript web screen">
+                        </div>
+                        <div class="barra-inclinada"></div>
+                        <div class="content-color">
+                          <h3>4 Simulador de Envio de mensajes - utilizando filtros 4</h3>
+                          <p>Plataforma simular el envio de correo</p>
+                            </div>
+                        </div>
+                      </div>
+                
+                    <div class="lenguajes">
+                      <div
+                        class=""
+                      >
+                        html
+                      </div>
+                      <div
+                        class=""
+                      >
+                        javascript
+                      </div>
+                      <div
+                        class=""
+                      >
+                        react
+                      </div>
+                      <div
+                        class=""
+                      >
+                        css
+                      </div>
+                    </div>
+                </article>
+                </div><!-- 4 proyect -->
+
+                <div class="slick">
+                  <article class="seccion-proyectos">
+                    <div class="card">
+                      <div>
+                        <div class="imagen-proyect">
+                          <img src="img/proyect.jpg" alt="pixelscript web screen">
+                        </div>
+                        <div class="barra-inclinada"></div>
+                        <div class="content-color">
+                          <h3>5 Simulador de Envio de mensajes - utilizando filtros 5</h3>
+                          <p>Plataforma simular el envio de correo</p>
+                            </div>
+                        </div>
+                      </div>
+                
+                    <div class="lenguajes">
+                      <div
+                        class=""
+                      >
+                        html
+                      </div>
+                      <div
+                        class=""
+                      >
+                        javascript
+                      </div>
+                      <div
+                        class=""
+                      >
+                        react
+                      </div>
+                      <div
+                        class=""
+                      >
+                        css
+                      </div>
+                    </div>
+                </article>
+                </div><!-- 5 proyect -->
+
+                <div class="slick">
+                  <article class="seccion-proyectos">
+                    <div class="card">
+                      <div>
+                        <div class="imagen-proyect">
+                          <img src="img/proyect.jpg" alt="pixelscript web screen">
+                        </div>
+                        <div class="barra-inclinada"></div>
+                        <div class="content-color">
+                          <h3>6 Simulador de Envio de mensajes - utilizando filtros 6</h3>
+                          <p>Plataforma simular el envio de correo</p>
+                            </div>
+                        </div>
+                      </div>
+                
+                    <div class="lenguajes">
+                      <div
+                        class=""
+                      >
+                        html
+                      </div>
+                      <div
+                        class=""
+                      >
+                        javascript
+                      </div>
+                      <div
+                        class=""
+                      >
+                        react
+                      </div>
+                      <div
+                        class=""
+                      >
+                        css
+                      </div>
+                    </div>
+                </article>
+                </div><!-- 6 proyect -->
+
+                <div class="slick">
+                  <article class="seccion-proyectos">
+                    <div class="card">
+                      <div>
+                        <div class="imagen-proyect">
+                          <img src="img/proyect.jpg" alt="pixelscript web screen">
+                        </div>
+                        <div class="barra-inclinada"></div>
+                        <div class="content-color">
+                          <h3>7 Simulador de Envio de mensajes - utilizando filtros 7</h3>
+                          <p>Plataforma simular el envio de correo</p>
+                            </div>
+                        </div>
+                      </div>
+                
+                    <div class="lenguajes">
+                      <div
+                        class=""
+                      >
+                        html
+                      </div>
+                      <div
+                        class=""
+                      >
+                        javascript
+                      </div>
+                      <div
+                        class=""
+                      >
+                        react
+                      </div>
+                      <div
+                        class=""
+                      >
+                        css
+                      </div>
+                    </div>
+                </article>
+                </div><!-- 7 proyect -->
+
+                <div class="slick">
+                  <article class="seccion-proyectos">
+                    <div class="card">
+                      <div>
+                        <div class="imagen-proyect">
+                          <img src="img/proyect.jpg" alt="pixelscript web screen">
+                        </div>
+                        <div class="barra-inclinada"></div>
+                        <div class="content-color">
+                          <h3>8 Simulador de Envio de mensajes - utilizando filtros 8</h3>
+                          <p>Plataforma simular el envio de correo</p>
+                            </div>
+                        </div>
+                      </div>
+                
+                    <div class="lenguajes">
+                      <div
+                        class=""
+                      >
+                        html
+                      </div>
+                      <div
+                        class=""
+                      >
+                        javascript
+                      </div>
+                      <div
+                        class=""
+                      >
+                        react
+                      </div>
+                      <div
+                        class=""
+                      >
+                        css
+                      </div>
+                    </div>
+                </article>
+                </div><!-- 8 proyect -->
+                
+            </div>
+            <button class="slick-arrow slick-next" id="button-next" data-button="button-next" onclick="app.processingButton(event)">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+            </button>
+        </div>
+
+ </div>
+
+
+
+
+
+
+</section>
+ <!-- qui termina proyectos-->
+   
+
+        <!-- <div class="flex-proyectos">
+          <div>
+            <h3>Simulador de Envio de mensajes - utilizando filtros</h3>
+            <p>Plataforma simular el envio de correo</p>
+          </div>
+          <div>
+            <h3>Simulador Carrito de Compras</h3>
+            <p>Podremos agregar productos y quitar del carrito de compras</p>
+          </div>
+          <div>
+            <h3>Busqueda de Autos</h3>
+            <p>Plataforma de busqueda de autos usando select para nuestro filtro</p>
+          </div>
+          <div>
+            <h3>Usando el LocalStorage Tweets</h3>
+            <p>Donde haremos uso de el LocalStorage para simular los Tweets</p>
+          </div>
+          <div>
+            <h3>Seguros de Autos usando prototypes</h3>
+            <p>Poder Realizar tipos de seguros para los autos usando filtros</p>
+          </div>
+          <div>
+            <h3>Lista De Gastos usando Clases</h3>
+            <p>Plataforma donde podremos Listar nuestros gastos y eliminarlos</p>
+          </div>
+          <div>
+            <h3>Administrador de Citas Veterinaria - IndexedDB </h3>
+            <p>Plataforma para crear editar eliminar citas </p>
+          </div>
+          <div>
+            <h3>Administrador de Clientes - IndexedDB</h3>
+            <p>Plataforma donde podras registrar nuestros clientes</p>
+          </div>
+          <div>
+            <h3>Programa de Clima</h3>
+            <p>Plataforma para poder obtener el clima de cada pais usando las apis</p>
+          </div>
+          <div>
+            <h3>Buscador letras Canciones</h3>
+            <p>Plataforma donde podremos encontrar letras de nuestras canciones</p>
+          </div>
+          <div>
+            <h3>PixabayImagenes - generadores</h3>
+            <p>Plataforma desarrollada para encontrar Imagenes utilizando la api pixabay</p>
+          </div>
+          <div>
+            <h3>Buscador de Criptomonedas</h3>
+            <p>Plataforma desarrollada para encontrar info de nuestra criptomoneda</p>
+          </div>
+        </div> -->
+      
+    </main>
+    <footer>
+      <p>gmail</p>
+      <p>outlook</p>
+      <p>whatsapp</p>
+      <p>paypal</p>
+      <p>linkeding</p>
+    </footer>
+  </body>
+  <script src="css-externos/carrusel/script-carrusel.js"></script>
+  <script src="javascript/script.js"></script>
+</html>
